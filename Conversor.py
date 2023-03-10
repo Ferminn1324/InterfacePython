@@ -15,6 +15,7 @@ class Conversor:
         mainFrame = ttk.Frame(raiz, padding="10 10 30 30")#Padding(Izquierda,Arriba, Derecha, Abajo)
         mainFrame.grid(column=1, row=0)
         
+        
         self.PiesEntry = ttk.Entry(mainFrame, width=12, textvariable=self.pies)
         self.PiesEntry.grid(column=1, row=0,sticky=(W,E))
 
